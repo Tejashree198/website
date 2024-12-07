@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Header and Mega Menu */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Hero Banner */
+.hero-banner {
+    text-align: center;
+    background: url(https://us.123rf.com/450wm/sdecoret/sdecoret1705/sdecoret170501604/78576453-modern-computer-laptop-mobile-phone-and-tablet-in-the-dark-3d-rendering.jpg?ver=6) no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero-banner .cta {
+    padding: 10px 20px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Product Categories */
+.product-categories .categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    background: #fdafaf;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+/* Featured Products */
+.featured-products .products {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background: #f6f367;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* SEO Section */
+.seo-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.seo-section img {
+    height: 40%;
+    width: 100%;
+    max-width: 300px;
+    
+}
+
+/* Promo Banner */
+.promo-banner {
+    background: #fffbbc;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links, .social-media {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
